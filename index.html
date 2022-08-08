@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Adebajo Adebola</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/bola5.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -50,7 +50,7 @@
 
                         <a href="mailto:deboladebajo78@gmail.com">deboladebajo78@gmail.com.</a>
                     </div>
-                    <p class="lead mb-5">Amazon web services and Microsoft azure certified IT professional with experience in helping companies migrate from legacy systems to building reliable, scalable and highly available cloud  infrastructure using amazon web services and Microsoft azure cloud services looking to gain more expertise and experience in the cloud computing and Devops field .</p>
+                    <p class="lead mb-5">Amazon web services certified IT professional with experience in building and operating reliable, scalable and highly available cloud infrastructure and IT resources using amazon web services looking to gain more expertise and experience in the cloud computing and Devops field </p>
                     <p> 
                     Visits: <span id="visits"></span>
                      <p>
@@ -155,9 +155,20 @@
              <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
-                    <h3 class="mb-0">Serverless Resume Website</h3>
-                    <ul class="fa-ul mb-0">
-                        <li></li>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Serverless Resume Website</h3>
+                            <a href="www.adebolaadebajo.com">www.adebolaadebajo.com.</a>
+                            <a href="https://github.com/debajoo/cloudresumechallenge-backend">Github Repo.</a>
+                            <ul>
+                                <li>Deployed website as a static website using amazon S3(Simple Storage Service).</li>
+                                <li>Created an Amazon cloudfront distribution in order to cache website contents in edge locations to achieve low latency.</li>
+                                <li>Incorporated a custom dns domain name using Amazon route 53 for the cloudfront distribution.</li>
+                                <li>Developed a backend visitor counter for the website using Amazon Dynamo db, AWS API Gateway, and AWS Lambda, and defined and deployed these resources as infrastructure as code(IAC) using AWS SAM and AWS CLI.</li>
+                                <li>Wrote lambda function in python using aws boto3 library.</li>
+                                <li>Utilized Github actions to set up continuous integration/continuous delivery (CI/CD) pipeline for frontend and backend of website.</li>  
+                                </ul>
+                        
                                       
                 </div>
             </section>
@@ -167,7 +178,9 @@
              <section class="resume-section" id="certifications">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Certifications</h2>
-                    <li>AWS Cloud Practitioner</li>
+                    <li>AWS Cloud Practitioner.</li> 
+                    
+
                 </div>
             </section>
             <hr class="m-0" />
